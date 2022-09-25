@@ -1,9 +1,9 @@
 // Code Keypad Component Here
 import React from "react";
 
-function Keypad ()
+const Keypad =()=>
 {
-    function keypadFn ( eventFunction )
+    const keypadFn = ( eventFunction ) =>
     {
         console.log(eventFunction.target.name);
         // console.log("Entering password...");

@@ -1,13 +1,13 @@
 // Code EyesOnMe Component Here
 import React from "react";
 
-function EyesOnMe ()
+const EyesOnMe = ()=>
 {
-    function handleFocus ()
+    const handleFocus =()=>
     {
         console.log("Good!")
     }
-    function handleBlur ()
+    const handleBlur = () =>
     {
         console.log("Hey! Eyes on me!")
     }
